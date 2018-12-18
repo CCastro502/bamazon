@@ -62,7 +62,6 @@ function startShop(length) {
                     }
                 ]).then(function (results) {
                     if (results.boolean) {
-                        console.log(typeof res[0].stock_quantity, typeof response.productQuantity)
                         connection.query(
                             "UPDATE products SET stock_quantity = ? WHERE item_id = ?",
                             [res[0].stock_quantity - parseInt(response.productQuantity), response.productID],

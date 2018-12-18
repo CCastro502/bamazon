@@ -18,8 +18,8 @@ VALUES ("Bananas", "Produce Department", 1.50, 300),
 	("Princess Barbie", "Toy Department", 7.50, 80),
 	("Ken Barbie", "Toy Department", 7.50, 15),
 	("Fishing Rod", "Hunting & Fishing Department", 60.00, 20),
-	("Live Worms", "Hunting & Fishing Department", 1.00, 300),
-	("Varmint Rifle", "Hunting & Fishing Department", 1.50, 300),
+	("Live Worms", "Hunting & Fishing Department", 1.00, 30),
+	("Tackle Box", "Hunting & Fishing Department", 15.00, 20),
 	("Lawn Chair", "Miscellaneous Department", 9.99, 10);
 
 SELECT * FROM products;
